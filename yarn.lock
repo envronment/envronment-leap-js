@@ -55,9 +55,9 @@ aframe-extras@^4.1.1:
   dependencies:
     three-pathfinding "^0.5.5"
 
-aframe-leap-hands@^0.7.2:
+aframe-leap-hands@envronment/aframe-leap-hands:
   version "0.7.2"
-  resolved "https://registry.yarnpkg.com/aframe-leap-hands/-/aframe-leap-hands-0.7.2.tgz#891c6c72ffce5cbc7d289188c07d7c4ec19a8615"
+  resolved "https://codeload.github.com/envronment/aframe-leap-hands/tar.gz/333b43ccb8b9df61fb196f8d569745a282fc6799"
   dependencies:
     circular-array "0.0.1"
     leapjs "^0.6.4"
