@@ -1,3 +1,19 @@
 {% set title = "Envronment Leap JS" %}
 
 {% extends "layouts/default.tmpl" %}
+
+{% block content %}
+  <!-- Player -->
+  <a-entity camera="near: 0.01" look-controls>
+    <a-entity leap-hand="hand: left"></a-entity>
+    <a-entity leap-hand="hand: right"></a-entity>
+  </a-entity>
+
+  <!-- Terrain -->
+  <a-grid></a-grid>
+
+  <!-- Lighting -->
+  <a-light type="ambient" color="#ccc"></a-light>
+  <a-light color="#ddf" distance="100" intensity="0.4" type="point"></a-light>
+  <a-light color="#ddf" position="3 10 -10" distance="50" intensity="0.4" type="point"></a-light>
+{% endblock %}

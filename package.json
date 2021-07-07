@@ -8,6 +8,7 @@
   "dependencies": {
     "aframe": "^0.8.2",
     "aframe-extras": "^4.1.1",
+    "aframe-leap-hands": "envronment/aframe-leap-hands",
     "aframe-physics-system": "^3.1.2"
   },
   "devDependencies": {
