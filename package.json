@@ -24,7 +24,7 @@
     "image-webpack-loader": "^3.4.2",
     "nunjucks-html-loader": "^1.1.0",
     "path": "^0.12.7",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.5",
     "url-loader": "^0.5.9",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2"
